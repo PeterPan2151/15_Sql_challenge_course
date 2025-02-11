@@ -1,0 +1,6 @@
+"customer_id","store_id","first_name","last_name","email","address_id","activebool","create_date","last_update","active"
+61,2,"KATHERINE","RIVERA","KATHERINE.RIVERA@sakilacustomer.org",65,True,"2020-02-14","2020-02-15 10:57:20+01",1
+339,2,"WALTER","PERRYMAN","WALTER.PERRYMAN@sakilacustomer.org",344,True,"2020-02-14","2020-02-15 10:57:20+01",1
+535,1,"JAVIER","ELROD","JAVIER.ELROD@sakilacustomer.org",541,True,"2020-02-14","2020-02-15 10:57:20+01",1
+46,2,"CATHERINE","CAMPBELL","CATHERINE.CAMPBELL@sakilacustomer.org",50,True,"2020-02-14","2020-02-15 10:57:20+01",1
+149,1,"VALERIE","BLACK","VALERIE.BLACK@sakilacustomer.org",153,True,"2020-02-14","2020-02-15 10:57:20+01",1
