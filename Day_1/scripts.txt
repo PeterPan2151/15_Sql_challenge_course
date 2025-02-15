@@ -1,0 +1,15 @@
+SELECT DISTINCT amount FROM payment
+ORDER BY amount DESC;
+
+SELECT first_name, last_name, email FROM customer
+ORDER BY last_name DESC, first_name DESC;
+
+SELECT frist_name, last_name, email FROM customer;
+
+SELECT DISTINCT district FROM address;
+
+SELECT rental_date FROM rental ORDER BY rental_date DESC LIMIT 1;
+
+SELECT COUNT(*) FROM film;
+
+SELECT COUNT(DISTINCT(last_name)) FROM customer;
