@@ -1,0 +1,18 @@
+SELECT MIN(replacement_cost), MAX(replacement_cost), ROUND(AVG(replacement_cost), 2), SUM(replacement_cost) FROM film;
+
+SELECT staff_id, SUM(amount), COUNT(amount) FROM payment WHERE amount != 0 GROUP BY staff_id;
+
+
+SELECT staff_id, DATE(payment_date), SUM(amount), COUNT(*) FROM payment 
+WHERE amount != 0 
+GROUP BY DATE(payment_date), staff_id
+ORDER BY SUM(amount) DESC;
+
+SELECT customer_id, DATE(payment_date), ROUND(AVG(amount), 2) AS avg_amount, COUNT(*)
+FROM payment
+WHERE DATE(payment_date) IN ('2020-04-28', '2020-04-29', '2020-04-30')
+GROUP BY customer_id, DATE(payment_date)
+HAVING COUNT(*) > 1
+ORDER BY 3 DESC;
+
+\i 'C:/Users/SALVADORRAFAELMONTIE/Documents/python/2025/15 Days of SQL The Complete SQL Masterclass 2024/Day_3/flight_database/flight_database.sql'
